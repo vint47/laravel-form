@@ -36,7 +36,7 @@ class Select extends Element
 
     public function value()
     {
-        if (!$this->value)
+        if ($this->value === '')
         {
             return null;
         }
